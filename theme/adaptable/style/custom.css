@@ -27,4 +27,148 @@
 /* Custom CSS Settings */
 /* Add the CSS styles from the CSS custom box */
 
-[[setting:customcss]]
+/* [[setting:customcss]] */
+
+#page-enrol-index #region-main input#id_submitbutton {
+  height: 35px;
+  width: 106px;
+  border-radius: 5px;
+  background-color: #ffcb3a;
+
+  color: #005f87 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  line-height: 21px !important;
+}
+
+#page-enrol-index #region-main input#id_submitbutton:hover {
+  height: 35px;
+  width: 106px;
+  border-radius: 5px;
+  background-color: #ffcb3a !important;
+
+  color: #005f87 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  line-height: 21px !important;
+}
+
+/* PAGE BACKGROUND COLOR (FADED WHITE) */
+#page-enrol-index {
+  background-color: #fafafa;
+}
+
+/* ENROL ME BUTTON DESIGN */
+#page-enrol-index #region-main div.continuebutton form button {
+  height: 35px;
+  width: 106px;
+  border-radius: 5px;
+  background-color: #ffcb3a;
+
+  color: #005f87 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  line-height: 21px !important;
+}
+
+
+#page-enrol-index #region-main div.continuebutton form button:hover {
+  height: 35px;
+  width: 106px;
+  border-radius: 5px;
+  background-color: #ffcb3a !important;
+
+  color: #005f87 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  line-height: 21px !important;
+}
+
+/* ENROL ME BUTTON ALIGNMENT */
+#page-enrol-index #region-main div.continuebutton{
+  text-align: left !important;
+  margin-left: 80px !important;
+}
+
+/* ENROLMENT KEY REQUIRED MESSAGE STYLE */
+#page-enrol-index #region-main fieldset#id_selfheader{
+  border: none !important;
+}
+
+#page-enrol-index #region-main legend.ftoggler{
+  display: none !important;
+}
+
+#page-enrol-index #region-main div.fcontainer{
+  display: block !important;
+}
+
+
+#page-enrol-index #region-main #fitem_id_submitbutton{
+  display: block !important;
+}
+
+#page-enrol-index #region-main #fitem_id_submitbutton input[type='submit']{
+  margin-left: 27px;
+  margin-top: -4px;
+}
+
+#page-enrol-index #region-main div.fcontainer div {
+  display: block !important;
+}
+
+#page-enrol-index #region-main div.fcontainer div.form-control-static {
+  margin-left: 66px;
+  /* NO ENROLMENT KEY REQUIRED MESSAGE STYLE */
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  width: inherit;
+}
+
+#page-enrol-index #page div.container.outercont {
+  margin-left: 50px;
+}
+
+#page-enrol-index #page div[role="main"] h2 {
+  display: none;
+}
+
+#page-enrol-index #page div.coursebox div.enrolmenticons {
+  display: none;
+}
+
+#page-enrol-index #page div.coursebox div.content div.summary div.no-overflow {
+  display: none;
+}
+
+
+#page-enrol-index #page div.coursebox h3.coursename .aalink {
+  padding-left: 0px;
+  background: none !important;
+  margin-left: 10px;
+
+  height: 34px;
+  width: 700px;
+  color: #005F87;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+#page-enrol-index #page div[role="main"] div.generalbox:nth-of-type(2) {
+  margin-top: -6px;
+}
+
+
